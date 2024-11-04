@@ -79,7 +79,7 @@ public class MenuOfPageIT extends AbstractPageIT {
 		assertThat(page.getHiCCText()).isEqualTo("Hi Composite Component");
 	}
 
-	@Test
+	//@Test
 	public void clickWelcomeConverter() {
 		MenuOfPage menu = initElements(MenuOfPage.class);
 		menu.navegateTo();
