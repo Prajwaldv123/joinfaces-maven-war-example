@@ -23,6 +23,9 @@ jobs:
       # Set up Java
       - name: Set up Java
         uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
 
       # Cache Maven dependencies
       - name: Cache Maven dependencies
